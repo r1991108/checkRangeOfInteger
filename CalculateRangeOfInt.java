@@ -8,11 +8,10 @@ public class CalculateRangeOfInt {
 		while(x>=0) {
 			x++;
 		}
-		System.out.println(x);
+		System.out.println("minimum = "+x);
 		x--;
-		System.out.println(x);
-		x++;
-		System.out.println(x);
+		System.out.println("maximum = "+x);
+
 	}
 
 }
